@@ -1,15 +1,15 @@
 <template>
   <svg fill="none" viewBox="0 0 340 340">
-    <circle cx="170" cy="170" r="160" stroke="#E2007C" />
-    <circle cx="170" cy="170" r="135" stroke="#404041" />
-    <circle cx="170" cy="170" r="110" stroke="#E2007C" />
-    <circle cx="170" cy="170" r="85" stroke="#404041" />
+    <circle cx="170" cy="170" r="160" stroke="#B10DC9" />
+    <circle cx="170" cy="170" r="135" stroke="#000000" />
+    <circle cx="170" cy="170" r="110" stroke="#B10DC9" />
+    <circle cx="170" cy="170" r="85" stroke="#000000" />
   </svg>
 </template>
 
 <style>
 circle {
-  animation: rotator 3s ease-in-out infinite;
+  animation: rotator 5s ease-in-out infinite;
   transform-origin: 170px 170px;
 }
 

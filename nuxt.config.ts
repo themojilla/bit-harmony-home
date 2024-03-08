@@ -1,5 +1,3 @@
-import { appDescription } from './constants/app'
-
 export default defineNuxtConfig({
   devtools: {
     enabled: true,
@@ -18,7 +16,6 @@ export default defineNuxtConfig({
     head: {
       meta: [
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-        { name: 'description', content: appDescription },
       ],
     },
   },

@@ -1,7 +1,11 @@
-import { Config } from 'tailwindcss';
+import type { Config } from 'tailwindcss'
 
 export default {
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        primary: '#B10DC9',
+      },
+    },
   },
-} satisfies Config;
+} satisfies Config

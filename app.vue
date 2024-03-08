@@ -1,15 +1,21 @@
 <script setup lang="ts">
 import { appName } from '~/constants/app'
 
+const { data } = await useAsyncData('app', () => queryContent('/app').findOne())
+
 useHead({
-  title: appName,
+  title: data.value?.name,
+  meta: [
+    { name: 'description', content: data.value?.description },
+  ],
 })
 </script>
 
 <template>
-  <NuxtLayout>
+  <main>
+    <div class="bg-[url('/assets/background.svg')] absolute inset-0 opacity-30" />
     <NuxtPage />
-  </NuxtLayout>
+  </main>
 </template>
 
 <style>
