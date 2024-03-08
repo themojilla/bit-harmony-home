@@ -2,13 +2,13 @@ import { appDescription } from './constants/app'
 
 export default defineNuxtConfig({
   devtools: {
-    enabled: true
+    enabled: true,
   },
   modules: [
     '@vueuse/nuxt',
     '@nuxt/content',
     '@nuxtjs/tailwindcss',
-    'nuxt-module-eslint-config'
+    'nuxt-module-eslint-config',
   ],
   content: {},
   tailwindcss: {
