@@ -1,6 +1,4 @@
 <script setup lang="ts">
-import { appName } from '~/constants/app'
-
 const { data } = await useAsyncData('app', () => queryContent('/app').findOne())
 
 useHead({
