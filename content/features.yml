@@ -1,0 +1,14 @@
+items:
+  - title: Design System
+    description: Streamline design and development processes with a cohesive and reusable component library tailored to your brand and project needs
+    cardClass: w-64 h-64 ml-auto mt-auto bg-neutral-100
+  - title: Frontend Mastery
+    description: From concept to code, we bring your visions to life. Elevate your online presence with our top-notch frontend development. We create smooth, captivating user experiences that make your digital presence stand out
+    cardClass: w-80 h-80 mr-auto bg-neutral-50
+  - title: Team Augmentation
+    description: Enhance your team's capabilities with experienced front-end engineers skilled in code refactoring / re-engineering, performance optimization, result in boosting productivity and achieving unparalleled results
+    cardClass: w-80 h-80 ml-auto bg-neutral-50
+    contentClass: px-5
+  - title: Corporate Training
+    description: Upskill your team through hands-on workshops and comprehensive training programs on front-end technologies, design systems, and designing interview workflow
+    cardClass: w-64 h-64 bg-neutral-100
