@@ -7,7 +7,7 @@ const { data } = await useAsyncData('app', () => queryContent('/app').findOne())
     <div class="absolute right-5">
       <img alt="logo" src="/assets/logo.svg" class="w-16 inline-block me-2">
       <img alt="logo" src="/assets/logotype.svg" class="w-80 inline-block">
-      <p class="w-full text-primary font-bold text-2xl">
+      <p class="w-full text-primary font-bold text-2xl ps-1.5">
         {{ data?.description }}
       </p>
     </div>
