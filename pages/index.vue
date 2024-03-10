@@ -1,16 +1,6 @@
 <script setup lang="ts">
 const { data: app } = await useAsyncData('app', () => queryContent('/app').findOne())
 const { data: features } = await useAsyncData('features', () => queryContent('/features').findOne())
-
-useHead({
-  title: app.value?.name,
-  meta: [
-    { name: 'description', content: app.value?.description },
-  ],
-  bodyAttrs: {
-    class: 'antialiased',
-  },
-})
 </script>
 
 <template>
