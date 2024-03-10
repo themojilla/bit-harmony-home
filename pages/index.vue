@@ -19,22 +19,12 @@ const { data: features } = await useAsyncData('features', () => queryContent('/f
           </div>
         </div>
 
-        <nav class="py-2 px-4 mb-5 xl:mb-0">
-          <ul class="flex items-center justify-center gap-5 text-primary text-xs">
-            <li>
-              <NuxtLink to="/">Showcase</NuxtLink>
-            </li>
-            <li>
-              <NuxtLink to="/">Contact</NuxtLink>
-            </li>
-            <li>
-              <NuxtLink to="/">FAQ</NuxtLink>
-            </li>
-            <li>
-              <NuxtLink to="/blog">Blog</NuxtLink>
-            </li>
-          </ul>
-        </nav>
+        <div class="py-2 px-4 mb-5 xl:mb-0">
+          <p class="font-medium text-xs">
+            We're excited to connect with you! Whether you have a project in mind, a question about our services, or just want to say hello, we're here to help. Get in Touch:
+            <a href="mailto:info@info.bit.harmony@gmail.com" class="font-bold text-primary">info.bit.harmony @ gmail.com</a>
+          </p>
+        </div>
       </div>
 
       <div class="flex-1 h-full flex items-center">
