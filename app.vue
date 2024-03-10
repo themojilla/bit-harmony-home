@@ -14,7 +14,7 @@ useHead({
 
 <template>
   <main>
-    <div class="bg-[url('/assets/background.svg')] fixed inset-0 opacity-30 xl:opacity-15 z-[-1] pointer-events-none" />
+    <div class="bg-[url('/assets/background.svg')] fixed inset-0 opacity-30 xl:opacity-20 z-[-1] pointer-events-none" />
     <NuxtPage />
   </main>
 </template>

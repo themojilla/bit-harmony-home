@@ -5,9 +5,9 @@ const { data: features } = await useAsyncData('features', () => queryContent('/f
 
 <template>
   <div class="py-5 min-h-screen md:flex items-center">
-      <div class="xl:flex-1 h-full">
+      <div class="xl:flex-1 h-full border-r">
         <div class="border-b pb-5 xl:pb-20">
-          <div class="relative h-60 xl:h-96 w-72 xl:w-96 ml-24 xl:mx-auto flex flex-col justify-center">
+          <div class="relative h-60 xl:h-96 min-w-fit w-72 xl:w-96 ml-24 xl:mx-auto flex flex-col justify-center">
             <div>
               <img alt="logo" src="/assets/logo.svg" class="w-10 xl:w-14 inline-block me-2">
               <img alt="logo" src="/assets/logotype.svg" class="w-48 xl:w-80 inline-block">
@@ -37,7 +37,7 @@ const { data: features } = await useAsyncData('features', () => queryContent('/f
         </nav>
       </div>
 
-      <div class="flex-1 h-full flex items-center border-l">
+      <div class="flex-1 h-full flex items-center">
         <div class="flex flex-wrap w-full px-5">
           <div v-for="({ title, description, cardClass, contentClass }, index) in features?.items" :key="index" class="w-full xl:w-1/2 p-1 flex">
             <FeatureItem :title="title" :description="description" :card-class="cardClass" :content-class="contentClass" />
