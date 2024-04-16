@@ -7,6 +7,7 @@ export default defineNuxtConfig({
     '@nuxt/content',
     '@nuxtjs/tailwindcss',
     'nuxt-module-eslint-config',
+    'nuxt-gtag'
   ],
   content: {},
   tailwindcss: {
@@ -23,4 +24,7 @@ export default defineNuxtConfig({
   eslintConfig: {
     setup: false,
   },
+  gtag: {
+    id: 'G-ES97Z45R6G'
+  }
 })
